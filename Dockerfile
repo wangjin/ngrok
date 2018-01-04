@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER WangJin <wangjin-252@hotmail.com>
+MAINTAINER WangJin
 LABEL Description="ngrok Docker image based on Centos 7"
 
 COPY ngrokd /usr/local/bin/
